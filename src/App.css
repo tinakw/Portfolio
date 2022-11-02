@@ -27,6 +27,7 @@ align-items: center;
   margin-left: 25px;
   margin-right: 25px;
   font-size: 16px;
+  font-weight: 200;
 
 }
 
@@ -37,7 +38,7 @@ align-items: center;
 
 }
 .nav a:hover {
-  opacity: .6;
+  opacity: .3;
 }
 
 .nav li:nth-child(2) {
@@ -62,15 +63,17 @@ align-items: center;
 }
 .title {
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
+  font-weight: 500;
   margin-bottom: 20px;
   color:#0e0c08
 }
 .occupation {
   text-align: center;
-  font-size: 72px;
+  font-size: 65px;
+  font-weight: 700;
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   color: #42361e
 
 }

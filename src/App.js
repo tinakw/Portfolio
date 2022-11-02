@@ -2,6 +2,7 @@ import './App.css';
 import Project1Image from './project1-img.png';
 import icon from './logo.png';
 import Resume from './TWordenResume.pdf';
+import DomGameImage from './mole2-img.png'
 
 function App() {
   return (
@@ -15,9 +16,9 @@ function App() {
       </header>
       <section className="bio">
         <div className='bio-inner'>
-          <p className='title'>Hello 👋 I'm Tina.</p>
-          <h1 className='occupation'>Web Developer</h1>
-          <p className='bio-text'>A creative problem solver bringing great ideas to life on the web. My projects are a showcase of my journey to develop my practice alongside my professional career as a PMI certified program management professional. For more information about me, follow the link above to my LinkedIn profile or download my resume.</p>
+          <p className ='title'>Hi 👋 I'm Tina,</p>
+          <h1 className='occupation'>I build things for the web.</h1>
+          <p className='bio-text'>As a creative problem solver, I bring great ideas to life. My projects showcase a developing practice using the latest web technologies. Below are samples of my work. Thanks for your interest!</p>
         </div>
       </section>
       <section className='project1'>
@@ -40,7 +41,7 @@ function App() {
       <section className='domGame'>
         <div className='domGame-inner'>
         <div className='domGame-right'>
-            <img className='project1-img' src={Project1Image} />
+            <img className='mole2-img' src={DomGameImage} />
           </div>
           <div className='domGame-left'>
             <h2>Whack-A-Mole</h2>
