@@ -1,5 +1,5 @@
 body {
-  background-color: #e9dece;
+  background-color: #92A0AE;
   position: relative;
 }
 
@@ -20,7 +20,12 @@ align-items: center;
 
 .icon{
   width: 50px;
+}
 
+
+.title img {
+  height: 95px;
+  width: 20%;
 }
 
 .nav li{
@@ -28,7 +33,6 @@ align-items: center;
   margin-right: 25px;
   font-size: 16px;
   font-weight: 200;
-
 }
 
 .nav a{
@@ -66,7 +70,8 @@ align-items: center;
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 20px;
-  color:#0e0c08
+  margin-top: 0px;
+  color:#42361e
 }
 .occupation {
   text-align: center;
@@ -74,13 +79,14 @@ align-items: center;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 25px;
-  color: #42361e
+  color: #42361e;
 
 }
 .bio-text {
 width: 500px;
 text-align: center;
 margin:0 auto;
+color: #42361e;
 }
 .project1 {
   padding-top: 100px;
@@ -136,7 +142,7 @@ margin-bottom: 40px;
 .project1-link {
   padding: 8px 16px;
   display: inline-block;
-  border: 1px solid #c5E7dc;
+  border: 2px solid #c5E7dc;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -155,7 +161,7 @@ display: flex;
 align-items: center;
 }
 .domGame-left {
-  width: 400px;
+  width: 500px;
   padding: 20px;
 }
 
@@ -181,7 +187,7 @@ align-items: center;
   border-radius: 4px;
 }
 .domGame-right {
-  width: 600px;
+  width: 500px;
   padding: 20px;
 }
 footer {

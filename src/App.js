@@ -2,7 +2,8 @@ import './App.css';
 import Project1Image from './project1-img.png';
 import icon from './logo.png';
 import Resume from './TWordenResume.pdf';
-import DomGameImage from './mole2-img.png'
+import DomGameImage from './mole2-img.png';
+import img from './t.png'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       </header>
       <section className="bio">
         <div className='bio-inner'>
-          <p className ='title'>Hi 👋 I'm Tina,</p>
+          <p className ='title'>Hi 👋 I'm <img src= {img}/>,</p>
           <h1 className='occupation'>I build things for the web.</h1>
           <p className='bio-text'>As a creative problem solver, I bring great ideas to life. My projects showcase a developing practice using the latest web technologies. Below are samples of my work. Thanks for your interest!</p>
         </div>
