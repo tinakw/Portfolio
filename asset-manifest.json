@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/tinakw.github.io/Portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/tinakw.github.io/Portfolio/static/js/main.ca09ab70.js",
-    "static/js/787.1ed0c42c.chunk.js": "/tinakw.github.io/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/tinakw.github.io/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/tinakw.github.io/Portfolio/index.html",
-    "main.073c9b0a.css.map": "/tinakw.github.io/Portfolio/static/css/main.073c9b0a.css.map",
-    "main.ca09ab70.js.map": "/tinakw.github.io/Portfolio/static/js/main.ca09ab70.js.map",
-    "787.1ed0c42c.chunk.js.map": "/tinakw.github.io/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.51f95fee.css",
+    "main.js": "/Portfolio/static/js/main.f0d27800.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/project1-img.png": "/Portfolio/static/media/project1-img.8f71bb0f1de5662b2ce5.png",
+    "static/media/TWordenResume.pdf": "/Portfolio/static/media/TWordenResume.d3ed3418328a3ebdc5a5.pdf",
+    "static/media/mole2-img.png": "/Portfolio/static/media/mole2-img.a49ea7ed51e7eb6563e1.png",
+    "static/media/logo.png": "/Portfolio/static/media/logo.ec02e95b0f47c8021afd.png",
+    "index.html": "/Portfolio/index.html",
+    "main.51f95fee.css.map": "/Portfolio/static/css/main.51f95fee.css.map",
+    "main.f0d27800.js.map": "/Portfolio/static/js/main.f0d27800.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ca09ab70.js"
+    "static/css/main.51f95fee.css",
+    "static/js/main.f0d27800.js"
   ]
 }
