@@ -5,20 +5,21 @@ body {
 
 
 .App-header {
- height:80px;
+  height: 80px;
 
- 
-}
-.nav{
-display: flex;
-list-style-type: none;
-width: 800px;
-margin: 0 auto;
-padding: 25px 50px;
-align-items: center;
+
 }
 
-.icon{
+.nav {
+  display: flex;
+  list-style-type: none;
+  width: 800px;
+  margin: 0 auto;
+  padding: 25px 50px;
+  align-items: center;
+}
+
+.icon {
   width: 50px;
 }
 
@@ -28,51 +29,72 @@ align-items: center;
   width: 20%;
 }
 
-.nav li{
+.nav li {
   margin-left: 25px;
   margin-right: 25px;
-  font-size: 16px;
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.nav a{
+.nav a {
   text-decoration: none;
-  color: black;
-  transition:all .3s;
+  color:#42361e;
+  transition: all .3s;
 
 }
+
 .nav a:hover {
-  opacity: .3;
+  opacity: .4;
 }
 
 .nav li:nth-child(2) {
   margin-left: auto;
 
 }
-.bio{
+
+.bio {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .bio-inner {
   width: 800px;
-  margin:0 auto;
+  margin: 0 auto;
 
 }
 
-.bio-text{
-  font-size: 18px;
+.bio-text {
+  font-size: 20px;
   letter-spacing: 1px;
   line-height: 1.5;
 
 }
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .title {
   text-align: center;
   font-size: 30px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   margin-top: 0px;
-  color:#42361e
+  color: #42361e;
+  margin-right: 8px;
+
+
+
 }
+
+.title-image {
+  position: relative;
+  top: -11px;
+}
+
 .occupation {
   text-align: center;
   font-size: 65px;
@@ -82,23 +104,27 @@ align-items: center;
   color: #42361e;
 
 }
+
 .bio-text {
-width: 500px;
-text-align: center;
-margin:0 auto;
-color: #42361e;
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  color: #42361e;
 }
+
 .project1 {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #BDA887;
+  background-color: #374D53;
+
 
 }
+
 .project1-inner {
-width: 1000px;
-margin: 0 auto;
-display: flex;
-align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 .left-column {
@@ -106,17 +132,18 @@ align-items: center;
   padding: 20px;
 }
 
-.left-column h2{
+.left-column h2 {
   color: #00ad96;
   padding-bottom: 10px;
   font-size: 50px;
 
 
 }
+
 .chips {
   display: flex;
   gap: 12px;
-margin-bottom: 40px;
+  margin-bottom: 40px;
 
 
 }
@@ -124,7 +151,7 @@ margin-bottom: 40px;
 .chip {
   padding: 8px;
   border-radius: 4px;
-  background-color: #D5C1A0;
+  background-color:  #92A0AE;
   color: white;
   font-weight: bold;
 }
@@ -139,27 +166,41 @@ margin-bottom: 40px;
 
 }
 
+.project1-title {
+  font-weight: bold;
+  color: #00ad96;
+}
+
 .project1-link {
   padding: 8px 16px;
   display: inline-block;
-  border: 2px solid #c5E7dc;
+  border: 1px solid #00ad96;
   text-decoration: none;
   color: white;
   font-weight: bold;
-  background-color: #D5C1A0;
+  background-color: #00ad96;
   border-radius: 4px;
+  transition: all .3s;
 }
+
+.project1-link:hover {
+  background: white;
+  color: #00ad96;
+}
+
 .domGame {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #4E4637;
 }
+
 .domGame-inner {
   width: 1000px;
-margin: 0 auto;
-display: flex;
-align-items: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
+
 .domGame-left {
   width: 500px;
   padding: 20px;
@@ -170,6 +211,7 @@ align-items: center;
   padding-bottom: 10px;
   font-size: 50px;
 }
+
 .domGame-left h1 {
   color: #00ad96;
   padding-bottom: 10px;
@@ -179,25 +221,34 @@ align-items: center;
 .domGame-link {
   padding: 8px 16px;
   display: inline-block;
-  border: 1px solid #c5E7dc;
+  border: 1px solid #00ad96;
   text-decoration: none;
   color: white;
   font-weight: bold;
-  background-color: #D5C1A0;
+  background-color: #00ad96;
   border-radius: 4px;
+  transition: all .3s;
 }
+
+.domGame-link:hover {
+  background: white;
+  color: #00ad96;
+}
+
 .domGame-right {
   width: 500px;
   padding: 20px;
 }
+
 footer {
-color:white;
-background-color:#4E4637;
-padding-bottom: 24px;
+  color: white;
+  background-color: #4E4637;
+  padding-bottom: 24px;
 
 }
+
 footer p {
   width: 800px;
-margin:0 auto;
-text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }

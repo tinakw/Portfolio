@@ -10,14 +10,19 @@ function App() {
     <div className="App">
       <header className="App-header">
         <ul className="nav">
-          <img className='icon' src={icon} />
-          <li><a href={Resume} target='_blank'>Resume</a></li>
-          <li><a href='https://www.linkedin.com/in/tina-k-worden/'target='_blank'>LinkedIn</a></li>
+          <img className='icon' src={icon} alt="Initials" />
+          <li><a href={Resume} rel="noreferrer" target='_blank'>Resume</a></li>
+          <li><a href='https://www.linkedin.com/in/tina-k-worden/' rel="noreferrer" target='_blank'>LinkedIn</a></li>
         </ul>
       </header>
       <section className="bio">
         <div className='bio-inner'>
-          <p className ='title'>Hi 👋 I'm <img src= {img}/>,</p>
+          <div className="title-container">
+          <p className ='title'>Hi 👋 I'm </p>
+          <img className= 'title-image' src= {img} alt="Tina"/>
+         
+          </div>
+        
           <h1 className='occupation'>I build things for the web.</h1>
           <p className='bio-text'>As a creative problem solver, I bring great ideas to life. My projects showcase a developing practice using the latest web technologies. Below are samples of my work. Thanks for your interest!</p>
         </div>
@@ -25,7 +30,7 @@ function App() {
       <section className='project1'>
         <div className='project1-inner'>
           <div className='left-column'>
-            <h2>Dog Volunteer Chat App</h2>
+            <h2 className="project1-title">Dog Volunteer Chat App</h2>
             <div className='chips'>
               <div className='chip'>React</div>
               <div className='chip'>NodeJS</div>
@@ -35,17 +40,17 @@ function App() {
             <a className='project1-link' href=" https://harmonious-biscochitos-b429e7.netlify.app/">View Project</a>
           </div>
           <div className='right-column'>
-            <img className='project1-img' src={Project1Image} />
+            <img className='project1-img' src={Project1Image} alt="Project 1 App Screenshot"/>
           </div>
         </div>
       </section>
       <section className='domGame'>
         <div className='domGame-inner'>
         <div className='domGame-right'>
-            <img className='mole2-img' src={DomGameImage} />
+            <img className='mole2-img' src={DomGameImage} alt="Cartoon Mole"/>
           </div>
           <div className='domGame-left'>
-            <h2>Whack-A-Mole</h2>
+            <h2 className="domGame-title">Whack-A-Mole</h2>
             <div className='chips'>
               <div className='chip'>HTML</div>
               <div className='chip'>CSS</div>
